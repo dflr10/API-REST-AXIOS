@@ -1,0 +1,51 @@
+{
+  "language": [
+    {
+      "nombre": "Java",
+      "tipo": "Compiled",
+      "id": 1
+    },
+    {
+      "nombre": "Ruby",
+      "tipo": "Interpreted",
+      "id": 2
+    },
+    {
+      "nombre": "C",
+      "tipo": "Compiled",
+      "id": 3
+    },
+    {
+      "nombre": "Python",
+      "tipo": "Interpreted",
+      "id": 4
+    },
+    {
+      "nombre": "Haskel",
+      "tipo": "Compiled",
+      "id": 5
+    }
+  ],
+  "freamworks": [
+    {
+      "id": 1,
+      "nombre": "Angular",
+      "lenguage": "TypeScript"
+    },
+    {
+      "id": 2,
+      "nombre": "VueJS",
+      "lenguage": "Javascript"
+    },
+    {
+      "id": 3,
+      "nombre": "Symfony",
+      "lenguage": "PHP"
+    },
+    {
+      "id": 4,
+      "nombre": "Django",
+      "lenguage": "Python"
+    }
+  ]
+}

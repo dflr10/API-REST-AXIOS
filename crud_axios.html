@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD API REST WITH AXIOS</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="assets/ajax.ico">
+</head>
+
+<body>
+    <h1>CRUD API REST WITH AXIOS</h1>
+    <section class="crud">
+        <article>
+            <h2 class="crud-title">Add Language</h2>
+            <form class="crud-form">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="text" name="type" placeholder="Type" required>
+                <input type="submit" value="Send">
+                <input type="hidden" name="id">
+                <br>
+            </form>
+        </article>
+        <article>
+            <h2>See Languages</h2>
+            <table class="crud-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </article>
+    </section>
+    <template id="crud-template">
+        <tr>
+            <td class="name"></td>
+            <td class="type"></td>
+            <td>
+                <button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </td>
+
+        </tr>
+    </template>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/crud_axios.js"></script>
+</body>
+
+</html>

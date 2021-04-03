@@ -1,0 +1,57 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: rgb(10, 87, 139);
+}
+
+input {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  display: block;
+  border: 0px;
+  border-radius: 8px;
+  background-color: rgb(236, 238, 239);
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"],
+button {
+  background-color: rgb(101, 153, 189);
+}
+
+button {
+  border-radius: 8px;
+  border: 0;
+  width: 55px;
+  height: 25px;
+}
+
+th {
+  padding: 10px;
+}
+.edit,
+.delete {
+  margin: 1px;
+}
+
+input,
+.crud-table {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.error {
+  margin-top: 15px;
+  text-align: center;
+  color: red;
+  font-size: 1.4rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: solid 1px red;
+}
