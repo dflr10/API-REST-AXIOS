@@ -19,4 +19,4 @@ Now if you go to http: // localhost: 3000 / languages / 1, you'll get
 Finanlly in Visual Studio Code, install Live Server extension, right click on crud_axios.html file and choose "open with live server" option.
 
 ## This is how the application works:
-(https://github.com/dflr10/API-REST-AXIOS/blob/main/API-REST-AXIOS.gif)
+![App runing](https://github.com/dflr10/API-REST-AXIOS/blob/main/API-REST-AXIOS.gif)
