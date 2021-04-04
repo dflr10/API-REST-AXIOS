@@ -7,7 +7,7 @@ and then import it using jsDelivr CDN: `<script src =" https://cdn.jsdelivr.net/
 
 Later you should have Node.js installed and using the command: `npm install -g json-server` you can install JSON Server
 
-## Start JSON Server
+## Start JSON Server in VSCode Terminal
 
 `json-server --watch db.json`
 
@@ -15,5 +15,8 @@ Now if you go to http: // localhost: 3000 / languages / 1, you'll get
 
 `{" id ": 1," nombre ":" Java "," tipo ":" Compiled "}`
 
-## Run in VSC
+## Run in VSCode
 Finanlly in Visual Studio Code, install Live Server extension, right click on crud_axios.html file and choose "open with live server" option.
+
+## This is how the application works:
+(https://github.com/dflr10/API-REST-AXIOS/blob/main/API-REST-AXIOS.gif)
