@@ -7,25 +7,13 @@ and then import it using jsDelivr CDN: `<script src =" https://cdn.jsdelivr.net/
 
 Later you should have Node.js installed and using the command: `npm install -g json-server` you can install JSON Server
 
-## Create a db.json file with some data
-
-`{
-   "posts": [
-     {"id": 1, "title": "json-server", "author": "typicode"}
-   ],
-   "comments": [
-     {"id": 1, "body": "some comment", "postId": 1}
-   ],
-   "profile": {"name": "typicode"}
-} `
-
 ## Start JSON Server
 
 `json-server --watch db.json`
 
-Now if you go to http: // localhost: 3000 / posts / 1, you'll get
+Now if you go to http: // localhost: 3000 / languages / 1, you'll get
 
-`{" id ": 1," title ":" json-server "," author ":" typicode "}`
+`{" id ": 1," nombre ":" Java "," tipo ":" Compiled "}`
 
 ## Run in VSC
 Finanlly in Visual Studio Code, install Live Server extension, right click on crud_axios.html file and choose "open with live server" option.
